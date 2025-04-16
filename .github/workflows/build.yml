@@ -13,4 +13,4 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Run
-        run: python src/main/main
+        run: python src/main/main.py
