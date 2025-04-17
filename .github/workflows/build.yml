@@ -7,6 +7,8 @@ jobs:
     steps:
       - name: Get code
         uses: actions/checkout@v3
+        with:
+          - ref: branch1
       - name: Install Python
         uses: actions/setup-python@v5
         with:
